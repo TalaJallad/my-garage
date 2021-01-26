@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Garage</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <p>My Car Garage</p>
+    </header>
+    <main>
+        <form class="form" id="inputForm">
+            <label for="carName">Car Name</label>
+            <br>
+            <input type="text" id="carName" name="name">
+            <br>
+            <label for="categoryModel">Category Model</label>
+            <br>
+           <select name="category" id="categoryModel">
+               <option value="BMW">BMW</option>
+               <option value="Lexus">Lexus</option>
+               <option value="Toyota">Toyota</option>
+               <option value="Tesla">Tesla</option>
+               <option value="Chevrolet">Chevrolet</option>
+               <option value="Hyundai">Hyundai</option>
+               <option value="KIA">KIA</option>
+           </select>
+           <br>
+           <label for="yearModel">Model Year</label>
+           <br>
+           <select name="modelYear" id="yearModel">
+            <option value="2016">2016</option>
+            <option value="2020">2020</option>
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit">
+        </form>
+        <table class="results" id="carResult">
+
+        </table>
+    </main>
+    <script src="js/app.js"></script>
+</body>
+</html>
